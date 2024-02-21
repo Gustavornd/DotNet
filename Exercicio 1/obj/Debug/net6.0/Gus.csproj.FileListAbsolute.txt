@@ -1,0 +1,15 @@
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\Gus.exe
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\Gus.deps.json
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\Gus.runtimeconfig.json
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\Gus.dll
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\ref\Gus.dll
+C:\Users\IFNMG\Desktop\Gus\bin\Debug\net6.0\Gus.pdb
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.csproj.AssemblyReference.cache
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.AssemblyInfoInputs.cache
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.AssemblyInfo.cs
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.csproj.CoreCompileInputs.cache
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.dll
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\ref\Gus.dll
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.pdb
+C:\Users\IFNMG\Desktop\Gus\obj\Debug\net6.0\Gus.genruntimeconfig.cache
