@@ -18,7 +18,11 @@
         int [] numbers = {1,2,3,4,5,6};
         result = numbers[3].Equals(num3);
         Console.WriteLine("Resultado: " + result);
-
+        /* Saida:
+                Resultado: True
+                Resultado: True
+                Resultado: True
+        */
 
 
 //Questão 2:
@@ -30,7 +34,10 @@
         b[1] = 30;
         Console.WriteLine("a: " + a[0] + ", "+a[1]);
         Console.WriteLine("b: " + b[0] + ", "+b[1]);
-
+        /* Saida:
+                a: 1, 2
+                b: 25, 30
+        */
 
 
 //Questão 3:
@@ -42,8 +49,14 @@
 
         //Imprime na tela o tipo do objeto que representa a lista "nomes".
         Console.WriteLine(nomes);
+        /* Saida:
+                System.Collections.Generic.List`1[System.String]
+        */
 
 
 //Questão 4:
         Console.WriteLine(string.Join(", ", nomes));
+        /* Saida:
+                .net, 2023, ifnmg
+        */
 

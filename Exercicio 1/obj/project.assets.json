@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IFNMG\\Desktop\\Gus\\Gus.csproj",
+      "projectUniqueName": "C:\\Users\\IFNMG\\Desktop\\Gus\\DotNet\\Exercicio 1\\Gus.csproj",
       "projectName": "Gus",
-      "projectPath": "C:\\Users\\IFNMG\\Desktop\\Gus\\Gus.csproj",
+      "projectPath": "C:\\Users\\IFNMG\\Desktop\\Gus\\DotNet\\Exercicio 1\\Gus.csproj",
       "packagesPath": "C:\\Users\\IFNMG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IFNMG\\Desktop\\Gus\\obj\\",
+      "outputPath": "C:\\Users\\IFNMG\\Desktop\\Gus\\DotNet\\Exercicio 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IFNMG\\AppData\\Roaming\\NuGet\\NuGet.Config"
