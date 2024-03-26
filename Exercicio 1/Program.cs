@@ -72,4 +72,3 @@
                 Console.WriteLine(matrizC[0,1].Equals(matrizD[0,1]));
 */
 
-
