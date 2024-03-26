@@ -1,4 +1,4 @@
-﻿/*
+﻿
 
         //Questão 1:
                 //Exemplo 1;
@@ -70,6 +70,6 @@
                 Console.WriteLine(matrizC.Equals(matrizD));
                 Console.WriteLine(matrizA[1].Equals(matrizB[1]));
                 Console.WriteLine(matrizC[0,1].Equals(matrizD[0,1]));
-*/
+
 
 
