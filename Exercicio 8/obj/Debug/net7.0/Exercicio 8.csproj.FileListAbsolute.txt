@@ -1,0 +1,15 @@
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\bin\Debug\net7.0\Exercicio 8.exe
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\bin\Debug\net7.0\Exercicio 8.deps.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\bin\Debug\net7.0\Exercicio 8.runtimeconfig.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\bin\Debug\net7.0\Exercicio 8.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\bin\Debug\net7.0\Exercicio 8.pdb
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.csproj.AssemblyReference.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\refint\Exercicio 8.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.pdb
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\Exercicio 8.genruntimeconfig.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 8\obj\Debug\net7.0\ref\Exercicio 8.dll
