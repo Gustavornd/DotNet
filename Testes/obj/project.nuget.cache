@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O+CBSFJ4Te9jK6+QRs53n1MoPOpSWnQ2AZJ04WC1HCmNy5o7Nx21icVOwCo2K8InhAohmXmHVylamgOXdZD1mg==",
+  "dgSpecHash": "gOw4f/7hA4/VAdJ6SCq5KXXqh8T2cyarUFx/3Uf0rlSEg4uK1xH79d6+EY51t1fsBWKoQH/UAo/DDEEBr8QDwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Testes\\Testes.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\IFNMG\\Desktop\\Gus\\DotNet\\Testes\\Testes.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -32,8 +32,26 @@ public class Calculator
     }
 }
 
+public class Empregado{
+    private string tipoEmpregado;
+
+    private string TipoEmpregado{
+        get{return tipoEmpregado;} 
+        set{tipoEmpregado = value;}
+    }
+
+    public Empregado(string tipo){
+        TipoEmpregado = tipo; 
+    }
+
+    public string EscreveTipo(){
+        TipoEmpregado; 
+    }
+}
+
 class Program
 {
+    /*
     static void Main(string[] args)
     {
         try{
@@ -83,6 +101,9 @@ class Program
         catch (Exception ex){
             Console.WriteLine($"Erro: {ex.Message}");
         }
-    }
+    }*/
+
+    Empregado a = new Empregado("Gerente");
+    Console.WriteLine(a.EscreveTipo());
 }
 
