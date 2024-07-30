@@ -1,0 +1,27 @@
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\appsettings.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.staticwebassets.runtime.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.exe
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.deps.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.runtimeconfig.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.dll
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\ref\Exercicio 12.dll
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\bin\Debug\net6.0\Exercicio 12.pdb
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.csproj.AssemblyReference.cache
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.AssemblyInfoInputs.cache
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.AssemblyInfo.cs
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.csproj.CoreCompileInputs.cache
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.RazorAssemblyInfo.cache
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.RazorAssemblyInfo.cs
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\scopedcss\bundle\Exercicio 12.styles.css
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\scopedcss\projectbundle\Exercicio 12.bundle.scp.css
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.dll
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\ref\Exercicio 12.dll
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.pdb
+C:\Users\IFNMG\Desktop\Gus\DotNet\Exercicio 12\obj\Debug\net6.0\Exercicio 12.genruntimeconfig.cache
