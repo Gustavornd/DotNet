@@ -7,18 +7,30 @@
             <input type="checkbox" @bind="t.Concluido"/> @t.Titulo </li>
     }
 </ul>
-<input praceholder="Alguma tarefa" @bind="novaTarefa"/>
+<input praceholder="Alguma tarefa" @bind="novaTarefa" @oninput="OcultarMensagemDeErro" />
+<p style="color: red;" hidden="@string.IsNullOrWhiteSpace(mensagemErro)">@mensagemErro</p>
 <button class="btn btn-primary" @onclick="AdicionarTarefa">Adicionar</button>
 
 @code {
     private List<Item> tarefas=new();
     private string? novaTarefa;
+    private string? mensagemErro;
     private void AdicionarTarefa(){
-        if(!string.IsNullOrWhiteSpace(novaTarefa)){
+        if(string.IsNullOrWhiteSpace(novaTarefa)){
+            mensagemErro = "A string não pode ser vazia";
+        }// fim if
+        else{
             tarefas.Add(new Item {Titulo=novaTarefa});
             novaTarefa = string.Empty;
-        }// fim if
+            mensagemErro = null;
+        }
     }  //fim func
+
+    private void OcultarMensagemDeErro(ChangeEventArgs e){
+        if(!string.IsNullOrWhiteSpace(novaTarefa)){
+            mensagemErro = null;
+        }
+    }
 
     public class Item{
         public string? Titulo{

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YQQ5O8Ofjdoi67i7cr3JsYJQ2XM+vW1MBhs164Kqi60CM5/2ib2u+zSjQqDai1FzTLXcV02Xr9TdVbL62lCNjA==",
+  "dgSpecHash": "PvhfD3Zzdfu6YobNyMnkzoJF2TTvCIJ/AsTAWJprEjIlW9wZO1HIM46BtrsvBKNy29diB0kq4p4i76OAm33zeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IFNMG\\Desktop\\Gus\\DotNet\\Exercicio 12\\Exercicio 12.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 12\\Exercicio 12.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
