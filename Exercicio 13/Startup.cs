@@ -57,7 +57,7 @@ namespace Exercicio_13
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapBlazorHub();
-                endpoints.MapFallbackToPage("/_Host");
+                //endpoints.MapFallbackToPage("/_Host");
             });
         }
     }
