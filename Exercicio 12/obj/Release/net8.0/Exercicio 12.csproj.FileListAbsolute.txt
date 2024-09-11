@@ -1,0 +1,32 @@
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\appsettings.Development.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\appsettings.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.staticwebassets.runtime.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.exe
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.deps.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.runtimeconfig.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\Exercicio 12.pdb
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.RazorAssemblyInfo.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.RazorAssemblyInfo.cs
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.sourcelink.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets\msbuild.Exercicio 12.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets\msbuild.build.Exercicio 12.props
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.Exercicio 12.props
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Exercicio 12.props
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\staticwebassets.pack.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\scopedcss\bundle\Exercicio 12.styles.css
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\scopedcss\projectbundle\Exercicio 12.bundle.scp.css
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\refint\Exercicio 12.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.pdb
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\Exercicio 12.genruntimeconfig.cache
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\obj\Release\net8.0\ref\Exercicio 12.dll

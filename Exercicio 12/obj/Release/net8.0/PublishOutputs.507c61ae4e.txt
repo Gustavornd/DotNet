@@ -1,0 +1,7 @@
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\Exercicio 12.exe
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\appsettings.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\Exercicio 12.dll
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\Exercicio 12.deps.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\Exercicio 12.runtimeconfig.json
+C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\Exercicio 12\bin\Release\net8.0\publish\Exercicio 12.pdb
