@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 15\\hotsite\\hotsite.csproj": {}
+    "/home/aluno/Gus/Dotnet/Exercicio 15/hotsite/hotsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 15\\hotsite\\hotsite.csproj": {
+    "/home/aluno/Gus/Dotnet/Exercicio 15/hotsite/hotsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 15\\hotsite\\hotsite.csproj",
+        "projectUniqueName": "/home/aluno/Gus/Dotnet/Exercicio 15/hotsite/hotsite.csproj",
         "projectName": "hotsite",
-        "projectPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 15\\hotsite\\hotsite.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\Exercicio 15\\hotsite\\obj\\",
+        "projectPath": "/home/aluno/Gus/Dotnet/Exercicio 15/hotsite/hotsite.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Gus/Dotnet/Exercicio 15/hotsite/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

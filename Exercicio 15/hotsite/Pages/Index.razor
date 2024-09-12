@@ -1,7 +1,8 @@
 ﻿@page "/"
 
 @inject ProdutoServices service
-@inject IJSRuntime jsRuntime
+@inject IJSRuntime JS
+
 
 <html>
     <head>
@@ -68,11 +69,12 @@
 
 
     private async Task ConfirmarExclusao(Produto prod){
-        bool confirmado = await jsRuntime.InvokeAsync<bool>("confirm", "Tem certeza que deseja apagar este produto?");
+        bool confirmado = await JS.InvokeAsync<bool>("confirm", "Tem certeza que deseja apagar este produto?");
 
         if(confirmado){
             await service.DeleteProductAsync(prod);
             await AtualizaProdutos();
+            await JS.InvokeVoidAsync("alert", "Produto apagado com sucesso!");
         }
     }
 
