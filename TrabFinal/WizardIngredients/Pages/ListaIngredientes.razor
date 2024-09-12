@@ -1,0 +1,74 @@
+@page "/listaingredientes"
+
+@inject IngredienteService service
+@inject IJSRuntime JS
+
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+
+    <body>
+        <h1>Ingredientes</h1>
+        <div class="container">
+            <div class="row bg-light">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Alergicos</th>
+                        <th>Informações Nutricionais</th>
+                    </thead>
+                    <tbody>
+                        @if (Ingredientes.Any())
+                        {
+                            @foreach (var ingr in Ingredientes)
+                            {
+                                <tr>
+                                    <td>@ingr.Id</td>
+                                    <td>@ingr.Nome</td>
+                                    <td>@ingr.Categoria</td>
+                                    <td>@ingr.Alergicos</td>
+                                    <td></td>
+                                    <td>
+                                        <button class="btn btn-danger" @onclick="(()=>ConfirmarExclusao(ingr))">Deletar</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6"><strong>Nenhum ingrediente disponível</strong></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+@code {
+
+    List<Ingrediente> Ingredientes = new List<Ingrediente>();
+    protected override async Task OnInitializedAsync(){
+        await AtualizarIngredientes();
+    }
+
+    private async Task AtualizarIngredientes(){
+        Ingredientes = await service.RetornaIngredienteAsync();
+    }
+
+    private async Task ConfirmarExclusao(Ingrediente ingr){
+        bool confirmado = await JS.InvokeAsync<bool>("confirm", "Tem certeza que desejar apagar este produto");
+        
+        if(confirmado){
+            await service.DeleteIngredientesAsync(ingr);
+            await AtualizarIngredientes();
+            await JS.InvokeVoidAsync("alert", "Produto apagado com sucesso!");
+        }
+    }
+}

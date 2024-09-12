@@ -17,7 +17,9 @@ public class IngredienteDbContext : DbContext{
 
     #region Método sobrecarregados
     protected override void OnModelCreating(ModelBuilder modelBuilder){
+        modelBuilder.Entity<Ingrediente>().Ignore(i => i.infNutri);
         modelBuilder.Entity<Ingrediente>().HasData(RetornarIngredidentes());
+        modelBuilder.Entity<InfNutri>().HasNoKey();
         base.OnModelCreating(modelBuilder);
     }
     #endregion
@@ -28,48 +30,48 @@ public class IngredienteDbContext : DbContext{
             new Ingrediente {
                 Id = 1001, 
                 Nome = "Trigo", 
-                new Categoria {Nome = "Cereais"},
+                Categoria = "Cereais",
                 Alergicos = "Glútem",
-                new List<InfNutri> {
-                    new InfNutri {Nome = "Calorias", Quantidade="20 kcal"},
-                    new InfNutri {Nome = "Carboidratos", Quantidade="20 g"},
-                    new InfNutri {Nome = "Gorduras Totais", Quantidade="0 g"}
+                infNutri = new List<InfNutri> {
+                        new InfNutri("Calorias", "20 kcal"),
+                        new InfNutri("Carboidratos", "20 g"),
+                        new InfNutri ("Gorduras Totais", "0 g")
                     }
-            }
+            },
             new Ingrediente {
                 Id = 1002, 
                 Nome = "Amendoim", 
-                new Categoria {Nome = "Cereais"},
+                Categoria = "Cereais",
                 Alergicos = "Castanhas",
-                new List<InfNutri> {
-                    new InfNutri {Nome = "Calorias", Quantidade="50 kcal"},
-                    new InfNutri {Nome = "Carboidratos", Quantidade="2 g"},
-                    new InfNutri {Nome = "Gorduras Totais", Quantidade="70 g"}
+                infNutri = new List<InfNutri> {
+                    new InfNutri("Calorias", "50 kcal"),
+                    new InfNutri("Carboidratos", "2 g"),
+                    new InfNutri("Gorduras Totais", "70 g")
                     }
-            }
+            },
             new Ingrediente {
                 Id = 1003, 
                 Nome = "Tomate", 
-                new Categoria {Nome = "Fruta"},
+                Categoria = "Fruta",
                 Alergicos = "Nenhum",
-                new List<InfNutri> {
-                    new InfNutri {Nome = "Calorias", Quantidade="50 kcal"},
-                    new InfNutri {Nome = "Carboidratos", Quantidade="2 g"},
-                    new InfNutri {Nome = "Gorduras Totais", Quantidade="70 g"}
+                infNutri = new List<InfNutri> {
+                    new InfNutri("Calorias", "89 kcal"),
+                    new InfNutri("Carboidratos", "1 g"),
+                    new InfNutri("Gorduras Totais", "0 g")
                     }
-            }
+            },
             new Ingrediente {
                 Id = 1004, 
-                Nome = "Amendoim", 
-                new Categoria {Nome = "Cereais"},
-                Alergicos = "Castanhas",
-                new List<InfNutri> {
-                    new InfNutri {Nome = "Calorias", Quantidade="50 kcal"},
-                    new InfNutri {Nome = "Carboidratos", Quantidade="2 g"},
-                    new InfNutri {Nome = "Gorduras Totais", Quantidade="70 g"}
+                Nome = "Alface", 
+                Categoria = "Folhas",
+                Alergicos = "Nenhum",
+                infNutri = new List<InfNutri> {
+                    new InfNutri("Calorias", "20 kcal"),
+                    new InfNutri("Carboidratos", "0 g"),
+                    new InfNutri("Gorduras Totais", "0 g")
                     }
             }
-        }
+        };
     }
     #endregion
 }

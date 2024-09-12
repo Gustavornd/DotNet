@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Gus/Dotnet/TrabFinal/WizardIngredients/WizardIngredients.csproj": {}
+    "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj": {}
   },
   "projects": {
-    "/home/aluno/Gus/Dotnet/TrabFinal/WizardIngredients/WizardIngredients.csproj": {
+    "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Gus/Dotnet/TrabFinal/WizardIngredients/WizardIngredients.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj",
         "projectName": "WizardIngredients",
-        "projectPath": "/home/aluno/Gus/Dotnet/TrabFinal/WizardIngredients/WizardIngredients.csproj",
-        "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Gus/Dotnet/TrabFinal/WizardIngredients/obj/",
+        "projectPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/aluno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

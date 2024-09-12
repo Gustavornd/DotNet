@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
 using WizardIngredients.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+
+builder.Services.AddDbContext<IngredienteDbContext>(options => {options.UseSqlite("Data Source = Ingredientes.db");});
+builder.Services.AddScoped<IngredienteService>();
 
 var app = builder.Build();
 
