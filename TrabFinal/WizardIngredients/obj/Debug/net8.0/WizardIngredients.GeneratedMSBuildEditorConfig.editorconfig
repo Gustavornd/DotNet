@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WizardIngredients
 build_property.RootNamespace = WizardIngredients
-build_property.ProjectDir = C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\TrabFinal\WizardIngredients\
+build_property.ProjectDir = /home/aluno/Downloads/WizardIngredients/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gusta\OneDrive\Documentos\Dotnet\DotNet\TrabFinal\WizardIngredients
+build_property.MSBuildProjectDirectory = /home/aluno/Downloads/WizardIngredients
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/App.razor]
+[/home/aluno/Downloads/WizardIngredients/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/home/aluno/Downloads/WizardIngredients/Pages/EditarIngrediente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdGFySW5ncmVkaWVudGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Pages/NovoIngrediente.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92b0luZ3JlZGllbnRlLnJhem9y
+[/home/aluno/Downloads/WizardIngredients/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/_Imports.razor]
+[/home/aluno/Downloads/WizardIngredients/Pages/NovoIngrediente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm92b0luZ3JlZGllbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/aluno/Downloads/WizardIngredients/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-7owgcs7lff
+[/home/aluno/Downloads/WizardIngredients/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vaxozsdaq9
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-uzrtmsy2oy
+[/home/aluno/Downloads/WizardIngredients/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-szkftnaw9f
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/home/aluno/Downloads/WizardIngredients/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/OneDrive/Documentos/Dotnet/DotNet/TrabFinal/WizardIngredients/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/home/aluno/Downloads/WizardIngredients/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,52 +1,52 @@
 @page "/NovoIngrediente"
 
 @inject IngredienteService service
+@inject NavigationManager NavigationManager
 
 <div class="row m-5">
     <div class="col-5 bg-light m-2 justify-content-start">
-        <div class="p-3 mb-3 bg-primary text-white text-center">Novo Produto</div>
+        <div class="row align-items-center">
+            <div class="col">
+                <h1>Novo Ingrediente</h1>
+            </div>
+        </div>
+
         <EditForm Model="@Ingr">
-            <div class="form-group">
-                <label for="nome">Id</label>
-                <input type="text" id="id" class="form-control" @bind-value="@Ingr.Id" />
-            </div>
-            <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" class="form-control" @bind-value="@Ingr.Nome" />
-            </div>
-            <div class="form-group">
-                <label for="nome">Categoria</label>
-                <input type="text" id="categoria" class="form-control" @bind-value="@Ingr.Categoria" />
-            </div>
-            <div class="form-group">
-                <label for="nome">Alergicos</label>
-                <input type="text" id="alergicos" class="form-control" @bind-value="@Ingr.Alergicos" />
+            <div class="d-flex flex-wrap gap-3">
+                <input type="text" id="nome" class="form-control" @bind-value="@Ingr.Nome" placeholder="Nome" />
+                <input type="text" id="categoria" class="form-control" @bind-value="@Ingr.Categoria" placeholder="Categoria"/>
+                <input type="text" id="alergicos" class="form-control" @bind-value="@Ingr.Alergicos" placeholder="Alergicos" />
             </div>
 
             <!-- Informação Nutricional -->
-            <div class="form-group">
-                <label for="infNutri">Informação Nutricional</label>
-                <input type="text" id="infNutri" class="form-control" @bind-value="@novaInformacaoNutricional" />
-                <button class="btn btn-primary mt-2" @onclick="AdicionarInformacaoNutricional">Adicionar</button>
+            <div class="border p-3 rounded mt-3">
+                <input type="text" id="InfNutri" class="form-control" @bind-value="@novaInformacaoNutricional" placeholder="Informação Nutricional"/>
+                <div class="d-flex justify-content-end mt-2">
+                    <button class="btn btn-warning mt-0 mb-3" @onclick="AdicionarInformacaoNutricional">
+                        <i class="bi bi-plus"></i>Adicionar Informação
+                    </button>
+                </div>
+
+                <!-- Exibir lista de informações nutricionais -->
+                <ul class="list-group">
+                    @foreach (var info in Ingr.InfNutri)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center m-1 p-2">
+                            <span>@info</span>
+                            <button class="btn btn-danger btn-sm" @onclick="() => RemoverInformacaoNutricional(info)">Remover</button>
+                        </li>
+                    }
+                </ul>
             </div>
 
-            <!-- Exibir lista de informações nutricionais -->
-            <ul class="list-group">
-                @foreach (var info in Ingr.InfNutri)
-                {
-                    <li class="list-group-item">
-                        @info
-                        <button class="btn btn-danger btn-sm float-right" @onclick="() => RemoverInformacaoNutricional(info)">Remover</button>
-                    </li>
-                }
-            </ul>
+            <div class="d-flex justify-content-end p-3 mb-3">
+                <NavLink class="btn btn-dark me-2" href="/">
+                    <i class="bi bi-plus"></i> Voltar
+                </NavLink>
 
-            <div class="text-center p-3 mb-3">
-                <button class="btn btn-info" @onclick="AdicionarIngrediente">Adicionar Ingrediente</button>
+                <button class="btn btn-success" @onclick="AdicionarIngrediente">Salvar Ingrediente</button>
             </div>
         </EditForm>
-        <NavLink href="/">Voltar à Página Incial</NavLink>
-
     </div>
 
 </div>
@@ -73,5 +73,6 @@
     private async Task AdicionarIngrediente(){
         await service.AddIngredienteAsync(Ingr);
         Ingr = new Ingrediente { InfNutri = new List<string>() };
+        NavigationManager.NavigateTo("/");
     }
 }

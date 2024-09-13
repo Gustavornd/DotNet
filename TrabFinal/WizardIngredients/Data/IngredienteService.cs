@@ -24,7 +24,7 @@ public class IngredienteService{
             await dbContext.SaveChangesAsync();
         }
         catch(Exception ex){
-            throw;
+            throw ex;
         }
         return ingrediente;
     }
@@ -38,7 +38,7 @@ public class IngredienteService{
             }
         }
         catch (Exception ex){
-            throw;
+            throw ex;
         }
         return ingrediente;
     }

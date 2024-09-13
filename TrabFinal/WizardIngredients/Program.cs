@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-
 builder.Services.AddDbContext<IngredienteDbContext>(options => {options.UseSqlite("Data Source = Ingredientes.db");});
 builder.Services.AddScoped<IngredienteService>();
+builder.Services.AddSingleton<StateContainer>();
 
 var app = builder.Build();
 

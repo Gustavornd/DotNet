@@ -1,71 +1,94 @@
 ﻿@page "/"
 
 @inject IngredienteService service
+@inject NavigationManager NavigationManager
+@inject StateContainer StateContainer
 @inject IJSRuntime JS
 
 <html>
-    <head>
-        <title>Index</title>
-    </head>
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</head>
 
-    <body>
-        <h1>Ingredientes</h1>
-        <div class="container">
-            <div class="row bg-light">
-                <table class="table table-bordered">
-                    <thead class="thead-dark">
+<body>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>Ingredientes</h1>
+        </div>
+        <div class="col-auto">
+            <NavLink class="btn btn-success" href="/NovoIngrediente">
+                <i class="bi bi-plus"></i> Adicionar Novo Ingrediente
+            </NavLink>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row bg-light">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
                         <th>Id</th>
                         <th>Nome</th>
                         <th>Categoria</th>
                         <th>Alergicos</th>
                         <th>Informações Nutricionais</th>
-                    </thead>
-                    <tbody>
-                        @if (Ingredientes.Any())
-                        {
-                            @foreach (var ingr in Ingredientes)
-                            {
-                                <tr>
-                                    <td>@ingr.Id</td>
-                                    <td>@ingr.Nome</td>
-                                    <td>@ingr.Categoria</td>
-                                    <td>@ingr.Alergicos</td>
-                                    <td>
-                                        @if (ingr.InfNutri != null && ingr.InfNutri.Any())
-                                        {
-                                            <ul>
-                                                @foreach (var nutri in ingr.InfNutri)
-                                                {
-                                                    <li>@nutri</li>
-                                                }
-                                            </ul>
-                                        }
-                                    </td>
-                                    <td>
-                                        <button class="btn btn-danger" @onclick="(()=>ConfirmarExclusao(ingr))">Deletar</button>
-                                    </td>
-                                </tr>
-                            }
-                        }
-                        else
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Ingredientes.Any())
+                    {
+                        @foreach (var ingr in Ingredientes)
                         {
                             <tr>
-                                <td colspan="6"><strong>Nenhum ingrediente disponível</strong></td>
+                                <td>@ingr.Id</td>
+                                <td>@ingr.Nome</td>
+                                <td>@ingr.Categoria</td>
+                                <td>@ingr.Alergicos</td>
+                                <td>
+                                    @if (ingr.InfNutri != null && ingr.InfNutri.Any())
+                                    {
+                                        <ul>
+                                            @foreach (var nutri in ingr.InfNutri)
+                                            {
+                                                <li>@nutri</li>
+                                            }
+                                        </ul>
+                                    }
+                                </td>
+
+                                <td class="d-flex justify-content-center align-items-center">
+                                    <button class="btn btn-danger me-1" @onclick="(()=>ConfirmarExclusao(ingr))">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+
+                                    <button class="btn btn-warning" @onclick="(() => NavegarParaEditar(ingr))">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </button>
+                                </td>
                             </tr>
                         }
-                    </tbody>
-                </table>
-                <NavLink href="/NovoIngrediente">Criar novo Ingrediente</NavLink>
-            </div>
-            
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6"><strong>Nenhum ingrediente disponível</strong></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         </div>
-    </body>
-
+    </div>
+</body>
 </html>
 
 @code {
-
     List<Ingrediente> Ingredientes = new List<Ingrediente>();
+
     protected override async Task OnInitializedAsync(){
         await AtualizarIngredientes();
     }
@@ -74,9 +97,15 @@
         Ingredientes = await service.RetornaIngredienteAsync();
     }
 
+    private void NavegarParaEditar(Ingrediente ingr)
+    {
+        StateContainer.AtualizaValor(ingr);
+        NavigationManager.NavigateTo("/EditarIngrediente");
+    }
+
     private async Task ConfirmarExclusao(Ingrediente ingr){
         bool confirmado = await JS.InvokeAsync<bool>("confirm", "Tem certeza que desejar apagar este produto");
-        
+
         if(confirmado){
             await service.DeleteIngredientesAsync(ingr);
             await AtualizarIngredientes();
@@ -84,6 +113,3 @@
         }
     }
 }
-
-
-

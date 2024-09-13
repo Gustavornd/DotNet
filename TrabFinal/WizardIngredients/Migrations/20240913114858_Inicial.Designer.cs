@@ -10,8 +10,8 @@ using WizardIngredients.Data;
 namespace WizardIngredients.Migrations
 {
     [DbContext(typeof(IngredienteDbContext))]
-    [Migration("20240913002530_MigrationInicial")]
-    partial class MigrationInicial
+    [Migration("20240913114858_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

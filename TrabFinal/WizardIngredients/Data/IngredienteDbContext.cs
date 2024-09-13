@@ -23,7 +23,6 @@ public class IngredienteDbContext : DbContext{
     }
     #endregion
 
-
     #region Métodos Privados
     private List<Ingrediente> RetornarIngredidentes(){
         return new List<Ingrediente> {

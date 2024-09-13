@@ -2574,19 +2574,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gusta\\.nuget\\packages\\": {}
+    "/home/aluno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj",
+      "projectUniqueName": "/home/aluno/Downloads/WizardIngredients/WizardIngredients.csproj",
       "projectName": "WizardIngredients",
-      "projectPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\WizardIngredients.csproj",
-      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\OneDrive\\Documentos\\Dotnet\\DotNet\\TrabFinal\\WizardIngredients\\obj\\",
+      "projectPath": "/home/aluno/Downloads/WizardIngredients/WizardIngredients.csproj",
+      "packagesPath": "/home/aluno/.nuget/packages/",
+      "outputPath": "/home/aluno/Downloads/WizardIngredients/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/aluno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2604,11 +2604,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2655,7 +2650,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
