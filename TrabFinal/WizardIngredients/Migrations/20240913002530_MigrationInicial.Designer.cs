@@ -10,7 +10,7 @@ using WizardIngredients.Data;
 namespace WizardIngredients.Migrations
 {
     [DbContext(typeof(IngredienteDbContext))]
-    [Migration("20240912224718_MigrationInicial")]
+    [Migration("20240913002530_MigrationInicial")]
     partial class MigrationInicial
     {
         /// <inheritdoc />
@@ -18,17 +18,6 @@ namespace WizardIngredients.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
-
-            modelBuilder.Entity("WizardIngredients.Data.InfNutri", b =>
-                {
-                    b.Property<string>("Nutriente")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Quantidade")
-                        .HasColumnType("TEXT");
-
-                    b.ToTable("InfNutri");
-                });
 
             modelBuilder.Entity("WizardIngredients.Data.Ingrediente", b =>
                 {
@@ -40,6 +29,9 @@ namespace WizardIngredients.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Categoria")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("InfNutri")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
@@ -55,6 +47,7 @@ namespace WizardIngredients.Migrations
                             Id = 1001,
                             Alergicos = "Glútem",
                             Categoria = "Cereais",
+                            InfNutri = "[\"Calorias: 20 kcal\",\"Carboidratos: 20 g\",\"Gorduras Totais: 0 g\"]",
                             Nome = "Trigo"
                         },
                         new
@@ -62,6 +55,7 @@ namespace WizardIngredients.Migrations
                             Id = 1002,
                             Alergicos = "Castanhas",
                             Categoria = "Cereais",
+                            InfNutri = "[\"Calorias: 50 kcal\",\"Carboidratos: 2 g\",\"Gorduras Totais: 70 g\"]",
                             Nome = "Amendoim"
                         },
                         new
@@ -69,6 +63,7 @@ namespace WizardIngredients.Migrations
                             Id = 1003,
                             Alergicos = "Nenhum",
                             Categoria = "Fruta",
+                            InfNutri = "[\"Calorias: 89 kcal\",\"Carboidratos: 1 g\",\"Gorduras Totais: 0 g\"]",
                             Nome = "Tomate"
                         },
                         new
@@ -76,6 +71,7 @@ namespace WizardIngredients.Migrations
                             Id = 1004,
                             Alergicos = "Nenhum",
                             Categoria = "Folhas",
+                            InfNutri = "[\"Calorias: 20 kcal\",\"Carboidratos: 0 g\",\"Gorduras Totais: 0 g\"]",
                             Nome = "Alface"
                         });
                 });

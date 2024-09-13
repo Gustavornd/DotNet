@@ -17,12 +17,12 @@ public class IngredienteDbContext : DbContext{
 
     #region Método sobrecarregados
     protected override void OnModelCreating(ModelBuilder modelBuilder){
-        modelBuilder.Entity<Ingrediente>().Ignore(i => i.infNutri);
+
         modelBuilder.Entity<Ingrediente>().HasData(RetornarIngredidentes());
-        modelBuilder.Entity<InfNutri>().HasNoKey();
         base.OnModelCreating(modelBuilder);
     }
     #endregion
+
 
     #region Métodos Privados
     private List<Ingrediente> RetornarIngredidentes(){
@@ -32,44 +32,44 @@ public class IngredienteDbContext : DbContext{
                 Nome = "Trigo", 
                 Categoria = "Cereais",
                 Alergicos = "Glútem",
-                infNutri = new List<InfNutri> {
-                        new InfNutri("Calorias", "20 kcal"),
-                        new InfNutri("Carboidratos", "20 g"),
-                        new InfNutri ("Gorduras Totais", "0 g")
-                    }
+                InfNutri = new List<string> {
+                    "Calorias: 20 kcal",
+                    "Carboidratos: 20 g",
+                    "Gorduras Totais: 0 g"
+                }
             },
             new Ingrediente {
                 Id = 1002, 
                 Nome = "Amendoim", 
                 Categoria = "Cereais",
                 Alergicos = "Castanhas",
-                infNutri = new List<InfNutri> {
-                    new InfNutri("Calorias", "50 kcal"),
-                    new InfNutri("Carboidratos", "2 g"),
-                    new InfNutri("Gorduras Totais", "70 g")
-                    }
+                InfNutri = new List<string> {
+                    "Calorias: 50 kcal",
+                    "Carboidratos: 2 g",
+                    "Gorduras Totais: 70 g"
+                }
             },
             new Ingrediente {
                 Id = 1003, 
                 Nome = "Tomate", 
                 Categoria = "Fruta",
                 Alergicos = "Nenhum",
-                infNutri = new List<InfNutri> {
-                    new InfNutri("Calorias", "89 kcal"),
-                    new InfNutri("Carboidratos", "1 g"),
-                    new InfNutri("Gorduras Totais", "0 g")
-                    }
+                InfNutri = new List<string> {
+                    "Calorias: 89 kcal",
+                    "Carboidratos: 1 g",
+                    "Gorduras Totais: 0 g"
+                }
             },
             new Ingrediente {
                 Id = 1004, 
                 Nome = "Alface", 
                 Categoria = "Folhas",
                 Alergicos = "Nenhum",
-                infNutri = new List<InfNutri> {
-                    new InfNutri("Calorias", "20 kcal"),
-                    new InfNutri("Carboidratos", "0 g"),
-                    new InfNutri("Gorduras Totais", "0 g")
-                    }
+                InfNutri = new List<string> {
+                    "Calorias: 20 kcal",
+                    "Carboidratos: 0 g",
+                    "Gorduras Totais: 0 g"
+                }
             }
         };
     }

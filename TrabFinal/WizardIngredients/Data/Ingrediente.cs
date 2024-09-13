@@ -10,7 +10,6 @@ public class Ingrediente{
     public string? Categoria{ get; set;}
     public string? Alergicos { get; set;}
 
-    [NotMapped]
-    public List<InfNutri>? infNutri { get; set;}
+    public List<string>? InfNutri { get; set;}
     
 };

@@ -1,4 +1,4 @@
-@page "/listaingredientes"
+@page "/ListaIngredientes"
 
 @inject IngredienteService service
 @inject IJSRuntime JS
@@ -30,7 +30,17 @@
                                     <td>@ingr.Nome</td>
                                     <td>@ingr.Categoria</td>
                                     <td>@ingr.Alergicos</td>
-                                    <td></td>
+                                    <td>
+                                        @if (ingr.InfNutri != null && ingr.InfNutri.Any())
+                                        {
+                                            <ul>
+                                                @foreach (var nutri in ingr.InfNutri)
+                                                {
+                                                    <li>@nutri</li>
+                                                }
+                                            </ul>
+                                        }
+                                    </td>
                                     <td>
                                         <button class="btn btn-danger" @onclick="(()=>ConfirmarExclusao(ingr))">Deletar</button>
                                     </td>

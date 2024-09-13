@@ -13,17 +13,6 @@ namespace WizardIngredients.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "InfNutri",
-                columns: table => new
-                {
-                    Nutriente = table.Column<string>(type: "TEXT", nullable: true),
-                    Quantidade = table.Column<string>(type: "TEXT", nullable: true)
-                },
-                constraints: table =>
-                {
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Ingrediente",
                 columns: table => new
                 {
@@ -31,7 +20,8 @@ namespace WizardIngredients.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Nome = table.Column<string>(type: "TEXT", nullable: true),
                     Categoria = table.Column<string>(type: "TEXT", nullable: true),
-                    Alergicos = table.Column<string>(type: "TEXT", nullable: true)
+                    Alergicos = table.Column<string>(type: "TEXT", nullable: true),
+                    InfNutri = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -40,22 +30,19 @@ namespace WizardIngredients.Migrations
 
             migrationBuilder.InsertData(
                 table: "Ingrediente",
-                columns: new[] { "Id", "Alergicos", "Categoria", "Nome" },
+                columns: new[] { "Id", "Alergicos", "Categoria", "InfNutri", "Nome" },
                 values: new object[,]
                 {
-                    { 1001, "Glútem", "Cereais", "Trigo" },
-                    { 1002, "Castanhas", "Cereais", "Amendoim" },
-                    { 1003, "Nenhum", "Fruta", "Tomate" },
-                    { 1004, "Nenhum", "Folhas", "Alface" }
+                    { 1001, "Glútem", "Cereais", "[\"Calorias: 20 kcal\",\"Carboidratos: 20 g\",\"Gorduras Totais: 0 g\"]", "Trigo" },
+                    { 1002, "Castanhas", "Cereais", "[\"Calorias: 50 kcal\",\"Carboidratos: 2 g\",\"Gorduras Totais: 70 g\"]", "Amendoim" },
+                    { 1003, "Nenhum", "Fruta", "[\"Calorias: 89 kcal\",\"Carboidratos: 1 g\",\"Gorduras Totais: 0 g\"]", "Tomate" },
+                    { 1004, "Nenhum", "Folhas", "[\"Calorias: 20 kcal\",\"Carboidratos: 0 g\",\"Gorduras Totais: 0 g\"]", "Alface" }
                 });
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "InfNutri");
-
             migrationBuilder.DropTable(
                 name: "Ingrediente");
         }
